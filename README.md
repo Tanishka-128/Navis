@@ -14,5 +14,5 @@ This project is a modern business website UI clone built using HTML and CSS. It 
 - HTML5
 - CSS3 (Flexbox, Grid)
 
-## 🎯 Goal
+##  Goal
 To strengthen frontend fundamentals and build a clean, well-structured UI clone as part of my development portfolio.
