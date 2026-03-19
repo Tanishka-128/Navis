@@ -9,6 +9,7 @@ This project is a modern business website UI clone built using HTML and CSS. It 
 ##  Progress
 - Navbar completed
 - Intro section completed 
+- Expertise Section
 
 ##  Tech Stack
 - HTML5
