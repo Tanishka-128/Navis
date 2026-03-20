@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+     /* outline:1px solid red; */
 }
 
 html, body{
@@ -16,7 +17,7 @@ html, body{
 
 body header nav{
     margin:20px 20px 20px 20px;
-    width: 100%;
+    /* width: 100%; */
     height:80px;
     background-color:rgb(255, 255, 255);
     display:flex;
@@ -26,7 +27,7 @@ body header nav{
 }
 
 body header nav #logo{
-    padding-left: 65px;
+    padding-left: 40px;
     font-size: 15px;
 }
 
@@ -41,13 +42,13 @@ body header nav .links a{
     font-size: 15px;
 }
 
-body header nav .nav_buttons{
+body header nav .responsive_buttons{
     display: flex;
     gap:30px;
-    padding-right: 50px;
+    margin-right: 40px;
 }
 
-body header nav .nav_buttons button{
+body header nav .responsive_buttons button{
     border: 2px solid rgb(14, 107, 245);
     background-color: transparent;
     color:rgb(14, 107, 245);
@@ -55,7 +56,7 @@ body header nav .nav_buttons button{
     border-radius: 50px;
     font-size: 15px;
 }
-body header nav .nav_buttons button:hover{
+body header nav .responsive_buttons button:hover{
     cursor:pointer;
     border: 2px solid transparent;
     background-color:  rgb(14, 107, 245);
@@ -99,14 +100,14 @@ body header nav .nav_buttons button:hover{
     color: rgb(110, 97, 97);
 }
 
-.intro .text .intro_button{
+.intro .text .responsive_buttons{
     display: flex;
     justify-content: center;
     gap: 30px;
     padding-top: 15px;
     padding-bottom: 50px;
 }
-.intro .text .intro_button button{
+.intro .text .responsive_buttons button{
     border: 2px solid rgb(14, 107, 245);
     background-color: transparent;
     color:rgb(14, 107, 245);
@@ -115,7 +116,7 @@ body header nav .nav_buttons button:hover{
     font-size: 18px;
 }
 
-.intro .text .intro_button button:hover{
+.intro .text .responsive_buttons button:hover{
     cursor:pointer;
     border: 2px solid transparent;
     background-color:  rgb(14, 107, 245);
@@ -272,4 +273,146 @@ main .expertise .expertise_cards h4{
     text-align:center;
     letter-spacing: 1px;
     word-spacing:0.5px;
+}
+
+.services{
+    /* width:100%; */
+    margin:80px 25px 15px 25px;
+    padding: 15px 25px 15px 25px;
+    border:1px solid transparent;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    gap:20px;
+}
+
+.services .services_text{
+    margin:30px 20px 30px 20px;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+.services .services_text .services_button_top button{
+    margin:35px 10px 30px 10px;
+    padding:13px 20px;
+    background-color: rgb(255, 255, 255);
+    border:1px solid black;
+    border-radius:50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.services .services_text h1{
+    font-size: 30px;
+    font-weight: 500;
+    color:rgb(17, 14, 14);
+    margin: 60px 10px 10px 10px;
+}
+.services .services_text h4{
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(17, 14, 14);
+    margin: 0px 10px 150px 10px;
+}
+.services .responsive_buttons{
+    display: flex;
+    gap:30px;
+    margin-left: 10px;
+}
+.services .responsive_buttons button{
+    border: 2px solid rgb(14, 107, 245);
+    background-color: transparent;
+    color:rgb(14, 107, 245);
+    padding:10px 20px;
+    border-radius: 50px;
+    font-size: 15px
+}
+.services .responsive_buttons button:hover{
+    cursor:pointer;
+    border: 2px solid transparent;
+    background-color:  rgb(14, 107, 245);
+    color:white
+}
+
+.services_cards{
+    display:grid;
+    grid-template-columns:290px 290px;
+    grid-template-rows:250px 250px;
+    grid-template-areas: "card1 card2"
+                         "card3 card4";
+    gap:30px;
+    margin-top:30px;
+}
+.services_cards .cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding:15px 20px 10px 8px;
+    border:1px solid transparent;
+    border-radius: 25px;
+    background-color: rgb(247, 248, 250);
+}
+.services_cards .cards:hover{
+    background-color:rgb(14, 107, 245);
+    color:white;
+    border:1px solid transparent;
+    cursor:pointer;
+    h1{
+        color:white;
+    }
+    h4{
+        color:white;
+    }
+    i{
+        color: #000;
+    }
+    .services_cards_icons{
+        background-color: white;
+    }
+}
+.services_cards .services_cards_icons{
+    display: flex;
+    height:50px;
+    width:40px;
+    align-items: center;
+    justify-content: center;
+    border:1px solid transparent;
+    border-radius: 50%;
+    margin: 20px 0px 80px 18px;
+    background-color: rgb(230, 248, 250) ;
+    /* background-color: rgb(14, 107, 245); */
+}
+.services_cards .services_cards_icons i{
+    font-size: 28px;    
+}
+
+
+.services_cards h1{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(17, 14, 14);
+    text-align: left;
+    margin: 0px 0px 10px 15px;
+}
+.services_cards h4{
+    font-size: 13px;
+    font-weight: 500;
+    color:rgb(17, 14, 14);
+    text-align: left;
+    margin: 0px 0px 20px 15px;
+}
+
+.services_cards #card1{
+    grid-area: card1;
+}
+.services_cards #card2{
+    grid-area: card2;
+}
+.services_cards #card3{
+    grid-area: card3;
+}
+.services_cards #card4{
+    grid-area: card4;
 }
