@@ -10,10 +10,15 @@ This project is a modern business website UI clone built using HTML and CSS. It 
 - Navbar completed
 - Intro section completed 
 - Expertise Section
+- Services Section
 
 ##  Tech Stack
 - HTML5
 - CSS3 (Flexbox, Grid)
+
+##  Improvements
+- Fixed layout overflow issues
+- Improved section alignment and spacing
 
 ##  Goal
 To strengthen frontend fundamentals and build a clean, well-structured UI clone as part of my development portfolio.
